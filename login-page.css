@@ -1,0 +1,471 @@
+/* *{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: #111;
+}
+
+form{
+    display: flex;
+    padding: 20px;
+}
+.imaga-part img{
+    width: 694px;
+    height: 1044px;
+}
+
+.login-part{
+  
+    background-color: #fff;
+    width: 745px;
+    height: 1044px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+span{
+    margin-left: 10px;
+    color: #535252;
+    font-weight: bolder;
+    font-family: sans-serif;
+    word-spacing: 10px;
+}
+.logo img{
+    width: 50px;
+     
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+   
+}
+button{
+    margin-top: 50px;
+    margin-right: 50px;
+   border: #696868 3px solid;
+    padding: 10px;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 18px;
+    color: #535252;
+    font-weight: bolder;
+    font-family: sans-serif;
+    word-spacing: 10px;
+}
+
+button img{
+    width: 20px;
+}
+   
+
+.login-part{
+    align-items: center;
+}
+.rounded-circle{
+    background-color: #45AF99;
+    width: 50px;
+    height: 50px;
+    display: block;
+    border-radius: 25px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 50%;
+    margin-top: 100px;
+    margin-left: 300px;
+    color: #fff;
+}
+.rounded-circle img{
+    width: 30px;
+}
+h1{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 50px;
+    margin-top: 5px;
+    pad: 10px;
+    color: #45AF99;
+}
+
+.input-part{
+    
+}
+
+.firdt-part{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.second-part{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.third-part{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;  
+}
+
+.third-part img{
+    position: absolute;
+    right: 70px;
+    width: 20px;
+}
+.forth-part{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;  
+}
+
+.forth-part span{
+    position: absolute;
+    left: 270px;
+  
+}
+kbd{
+    position: absolute;
+    left: 650px;  
+  
+}
+.agreement{
+    margin-top: 50px;
+    margin-left: 20px;
+    color: #000000;
+}
+
+h3{
+    display: flex;
+   
+    align-items: center;
+}
+h3 img{
+    align-items: center;
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+    padding: 3px;
+    border: 3px solid #696868;
+   
+}
+input{
+    border: 1px solid #A2D7CC;
+    border-radius: 8px;
+    width: 300px;
+    height: 55px;
+}
+::placeholder{
+text-transform: capitalize;
+   padding-left: 20px;
+    color: #C1C1C1;
+   
+}
+
+
+
+.create-account{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    width: 300px;
+   height: 100px;
+   margin-left: 200px;
+   border-radius: 12px;
+    background-color: #45AF99;
+    cursor: pointer;
+    transform: translateX(50px);
+    transition: all ease-in-out 2s;
+}
+
+.create-account:hover{
+    color: tomato;
+    background-color: #000000;
+}
+
+.create-account h2{
+    text-align: center;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+h5{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #A2D7CC;
+}
+a{
+    color: #A2D7CC;
+}
+
+a:hover{
+    color: #000000;
+}
+ */
+
+
+ * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #111;
+}
+
+form {
+    display: flex;
+    padding: 20px;
+    flex-wrap: wrap; /* Allows form elements to stack on smaller screens */
+}
+
+.imaga-part img {
+    width: 100%; /* Make the image fully responsive */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.login-part {
+    background-color: #fff;
+    width: 100%; /* Flexible width for responsiveness */
+    max-width: 745px; /* Maintain max width for larger screens */
+    height: auto; /* Adjust height as needed */
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+span {
+    margin-left: 10px;
+    color: #535252;
+    font-weight: bolder;
+    font-family: sans-serif;
+    word-spacing: 10px;
+}
+
+.logo img {
+    width: 50px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+button {
+    margin-top: 50px;
+    margin-right: 50px;
+    border: #696868 3px solid;
+    padding: 10px;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 18px;
+    color: #535252;
+    font-weight: bolder;
+    font-family: sans-serif;
+    word-spacing: 10px;
+}
+
+button img {
+    width: 20px;
+}
+
+.login-part {
+    align-items: center;
+}
+
+.rounded-circle {
+    background-color: #45AF99;
+    width: 50px;
+    height: 50px;
+    display: block;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto 0; /* Centered and margin auto */
+    color: #fff;
+}
+
+.rounded-circle img {
+    width: 30px;
+}
+
+h1 {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 50px;
+    margin-top: 5px;
+    color: #45AF99;
+}
+
+.input-part {
+}
+
+.firdt-part, .second-part, .third-part, .forth-part {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+    flex-wrap: wrap; /* Allow input elements to stack on small screens */
+}
+
+input {
+    border: 1px solid #A2D7CC;
+    border-radius: 8px;
+    width: 100%; /* Full width on smaller screens */
+    max-width: 300px; /* Maintain the max width for larger screens */
+    height: 55px;
+}
+
+::placeholder {
+    text-transform: capitalize;
+    padding-left: 20px;
+    color: #C1C1C1;
+}
+
+.create-account {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    width: 100%;
+    max-width: 300px; /* Set max-width for larger screens */
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 12px;
+    background-color: #45AF99;
+    cursor: pointer;
+    transition: all ease-in-out 2s;
+}
+
+.create-account:hover {
+    color: tomato;
+    background-color: #000000;
+}
+
+.create-account h2 {
+    text-align: center;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+h5 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #A2D7CC;
+}
+
+a {
+    color: #A2D7CC;
+}
+
+a:hover {
+    color: #000000;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .imaga-part img {
+        width: 100%;
+        height: auto;
+    }
+
+    form {
+        flex-direction: column; /* Stack the form on smaller screens */
+        padding: 10px;
+    }
+
+    .logo {
+        justify-content: center;
+    }
+
+    button {
+        margin: 30px auto;
+        padding: 8px;
+        font-size: 16px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    input {
+        width: 80%; /* Reduce input width on smaller screens */
+    }
+
+    .create-account {
+        width: 80%; /* Reduce the width on smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .rounded-circle {
+        width: 40px;
+        height: 40px;
+        margin-top: 50px;
+    }
+
+    .rounded-circle img {
+        width: 20px;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 6px;
+    }
+
+    input {
+        width: 90%; /* Take full width on smaller mobile screens */
+    }
+
+    .create-account {
+        width: 90%; /* Adjust for mobile */
+        height: 80px;
+    }
+
+    .create-account h2 {
+        font-size: 24px;
+    }
+
+    h5 {
+        font-size: 18px;
+    }
+}
